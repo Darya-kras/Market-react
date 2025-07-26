@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Market-react/static/css/main.21285040.css",
+    "main.js": "/Market-react/static/js/main.cc1963e0.js",
+    "static/js/453.249192dd.chunk.js": "/Market-react/static/js/453.249192dd.chunk.js",
+    "static/media/West0.gif": "/Market-react/static/media/West0.237f4292cdefbf1b85d6.gif",
+    "static/media/Comfortaa-VariableFont_wght.ttf": "/Market-react/static/media/Comfortaa-VariableFont_wght.e813464cff793b714f61.ttf",
+    "index.html": "/Market-react/index.html",
+    "main.21285040.css.map": "/Market-react/static/css/main.21285040.css.map",
+    "main.cc1963e0.js.map": "/Market-react/static/js/main.cc1963e0.js.map",
+    "453.249192dd.chunk.js.map": "/Market-react/static/js/453.249192dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21285040.css",
+    "static/js/main.cc1963e0.js"
+  ]
+}
