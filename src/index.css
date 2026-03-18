@@ -1,0 +1,60 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+:root { --main-color: white; }
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+html::-webkit-scrollbar {
+  width: 0px;
+}
+html{
+  overflow: auto; 
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  position: relative; /* Обязательно, чтобы псевдоэлемент был внутри */
+  background-color: rgb(255, 255, 255);
+  /* background-size, background-position и т.д. не нужны здесь, если у вас есть псевдоэлемент */
+}
+
+body::after {
+  content: '';
+  position: fixed; /* расположение слоя */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://egorcraftman.ru/img/Logo3.svg");
+  background-repeat: no-repeat; 
+  background-size: 40%; 
+  background-position: center 35%; 
+  z-index: -1; 
+  filter: blur(5px); 
+  opacity: 0.2; 
+}
+
+section{
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+a, 
+a:active,
+a:visited {
+    color: white;
+}

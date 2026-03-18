@@ -1,0 +1,261 @@
+.all{
+        font-family: myFirstFont;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: auto;
+        padding-bottom: 5%;
+        font-size: 1.2em;
+}
+.ramka{
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border: double 0.7em black;
+    border-radius: 0.5em;
+    transform: translateY(-6%);
+}
+.head{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    text-align:l;
+    justify-content: center;
+    font-size: 0.8em;
+}
+.order{
+    display: flex;
+    height: fit-content;
+    margin-top: 1%;
+    padding: 4%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-align:center;
+    background-color: rgba(59, 59, 59, 0);
+    color: rgb(0, 0, 0);
+}
+.forminf{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 5%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px;
+    min-width: fit-content;
+    height: 12em;
+    max-width: 70%;
+    width: 20em;
+    margin: auto;
+    font-size: 0.8em;
+}
+.cont{
+    height: fit-content;
+}
+.cht{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.num{
+    color: black;
+}
+@media (max-width: 1345px){
+    .all{
+        margin: 8em 0em;
+    }
+    .details{
+       
+    }
+    .forminf{
+        flex-wrap: wrap;
+    }
+    .chtup{
+        margin-bottom: 1em;
+    }
+}
+@media (max-width: 630px){
+    .all{
+        margin: 10em 0em;
+    }
+    .ramka{
+        width: 100%;
+    }
+    .details{
+        max-width: 10em;
+        font-size: 0.8em;
+        justify-content: center;
+    }
+    .contact{
+        width: 15em;
+        margin: auto;
+    }
+    .sum{
+        width: 15em;
+        margin: auto;
+    }
+    .cost{
+        width: 15em;
+    }
+    .vvod{
+        max-width: 15em;
+        width: 15em;
+        min-width: 15em;
+        height: auto;
+        max-height: 7em;
+        min-height: 7em;
+    }
+}
+
+select{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+    color: rgb(177, 177, 177);
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0);
+}
+input{
+    margin-left: 5px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0);
+}
+label{
+    display: flex;
+    margin-top: 5px;
+}
+.type{
+    width: 150px;
+    height: 20px;
+}
+.quan{
+    color: black;
+    width: 3em;
+    height: 1em;
+}
+
+textarea{
+    max-width: 27em;
+    min-width: 27em;
+    max-height: 7em;
+    min-height: 7em;
+    margin: auto;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.inputphoto{
+    max-width: 27em;
+    min-width: 27em;
+    max-height: 7em;
+    min-height: 7em;
+    margin: auto;
+    border: solid 1px black;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.load{
+    cursor: pointer;
+    max-width: 20em;
+    min-width: 20em;
+    max-height: 7em;
+    min-height: 7em;
+    font-size: 0.6em;
+    margin: auto;
+    border: solid 1px black;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    text-align:center;
+}
+.addbtn{
+    display: flex;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 5px;
+    border-radius: 7px;
+    justify-content: center;
+    border: 0px solid rgb(42, 7, 97);
+    color: white;
+    background-color: black;
+    transition: 0.2s;
+    border-radius: 7px;
+}
+.addbtn:hover{
+    transform: scale(1.02);
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+.listlab{
+    margin: auto;
+}
+@media (min-width: 2000px){
+    .head{
+        font-size: 1.5em;
+    }
+    .details{
+        width: 50em;
+        font-size: 1.3em;
+    }
+    .vvod{
+        max-width: 50em;
+        width: 50em;
+        min-width: 50em;
+        height: auto;
+        font-size: 1.1em;
+        max-height: 10em;
+        min-height: 10em;
+    }
+    .load{
+        max-width: 40em;
+        min-width: 40em;
+        max-height: 5em;
+        min-height: 5em;
+        font-size: 1em;
+    }
+    .cont{
+        width: fit-content;
+    }
+    .cont2{
+        width: 48em;
+    }
+        .contact{
+        width: 30em;
+        margin: auto;
+    }
+    .sum{
+        width: 30em;
+        margin: auto;
+    }
+    .cost{
+        width: 30em;
+        margin: auto;
+    }
+}
+
+
+

@@ -1,0 +1,78 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #5b5b5b75;
+    border-width: var(--t396-borderwidth,0);
+    border-style: var(--t396-borderstyle,solid);
+    border-color: var(--t396-bordercolor,transparent);
+    transition: background-color var(--t396-speedhover,0s) ease-in-out,
+                color var(--t396-speedhover,0s) ease-in-out,
+                border-color var(--t396-speedhover,0s) ease-in-out,
+                box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+    font-size: 1.3em;
+    width: fit-content;
+    position: fixed;
+    bottom: 10%;             
+    left: 50%;               
+    transform: translateX(-50%); 
+    
+    z-index: 999;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: 0.5s;
+}
+.navrow{
+    display: flex;
+    justify-content: center;
+    gap: 0.3em;
+    padding: 0em 0.3em;
+}
+.navrow a{
+    text-decoration: none;
+}
+.point{
+    background-color: rgb(59, 59, 59);
+    border-radius: 5px;
+    padding: 0.5em;
+    transition: 0.3s;
+}
+.getsm{
+    background: -webkit-linear-gradient(90deg,#054c76,#0c192a,#471c3a);
+    background: linear-gradient(90deg,#054c76,#0c192a,#471c3a);
+    transition: 0.3s;
+}
+.getsm:hover{
+    background: linear-gradient(90deg,#4bb0eb,#265088,#92417a);
+}
+.getsm a:hover{
+    color: black;
+}
+.point:hover{
+    background-color: rgb(107, 107, 107);
+    transform-origin: center center 5px;
+}
+
+@media (max-width: 780px) {
+  .nav {
+    border-radius: 0px;
+    bottom: 0px;
+    width: 100%;
+  }
+  
+  /* класс для активного меню, например, после клика */
+  .nav.open {
+    display: flex;
+  }
+  
+  /* Иконка-гамбургер */
+  .menu-toggle {
+    display: none; /* скрывать на больших экранах */
+    cursor: pointer;
+  }
+}
+@media (min-width: 2000px) {
+    .getsm{
+
+    }
+}
