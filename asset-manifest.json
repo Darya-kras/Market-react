@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/Market-react/static/css/main.21285040.css",
-    "main.js": "/Market-react/static/js/main.0fd3bf05.js",
+    "main.css": "/Market-react/static/css/main.7d410a2f.css",
+    "main.js": "/Market-react/static/js/main.023c4db9.js",
     "static/js/453.249192dd.chunk.js": "/Market-react/static/js/453.249192dd.chunk.js",
-    "static/media/West0.gif": "/Market-react/static/media/West0.237f4292cdefbf1b85d6.gif",
     "static/media/Comfortaa-VariableFont_wght.ttf": "/Market-react/static/media/Comfortaa-VariableFont_wght.e813464cff793b714f61.ttf",
     "index.html": "/Market-react/index.html",
-    "main.21285040.css.map": "/Market-react/static/css/main.21285040.css.map",
-    "main.0fd3bf05.js.map": "/Market-react/static/js/main.0fd3bf05.js.map",
+    "main.7d410a2f.css.map": "/Market-react/static/css/main.7d410a2f.css.map",
+    "main.023c4db9.js.map": "/Market-react/static/js/main.023c4db9.js.map",
     "453.249192dd.chunk.js.map": "/Market-react/static/js/453.249192dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21285040.css",
-    "static/js/main.0fd3bf05.js"
+    "static/css/main.7d410a2f.css",
+    "static/js/main.023c4db9.js"
   ]
 }
